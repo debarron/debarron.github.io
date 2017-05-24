@@ -4,7 +4,6 @@ var conferences = 'https://debarron.github.io/assets/conferences.json'
 
 
 $(document).ready(function() {
-    var myItems;
 
     // Get the list of external reviews
     $.getJSON(externalReviews, function(data) {
@@ -16,4 +15,6 @@ $(document).ready(function() {
           $("#external-review").append("</ul>");
         });
     });
+
+    
 });

@@ -9,10 +9,11 @@ $(document).ready(function() {
     // Get the list of external reviews
     $.getJSON(externalReviews, function(data) {
         data.forEach(function(reviews){
-          console.log(reviews.year);
-          reviews.conferences.forEach(function(strConference){
-            console.log(">> " + strConference);
+          $("#external-review").append("<ul><strong>" +reviews.year + "</strong>");
+          reviews.conferences.forEach(function(conf){
+            $("#external-review").append("<ul>" + conf + "</ul>");
           });
+          $("#external-review").append("</ul>");
         });
     });
 });

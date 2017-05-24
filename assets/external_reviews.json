@@ -1,7 +1,7 @@
 [
   {
     "year":"2016",
-    "revies":[
+    "conferences":[
       "IEEE International Conference on Mobile Data Management (MDM)",
       "IEEE International Conference on Cloud and Big Data Computing (CBDCom)",
       "International Conference on Big Data Analytics and Knowledge Discovery (DaWaK)",
@@ -10,7 +10,7 @@
   },
   {
     "year":"2017",
-    "revies":[
+    "conferences":[
       "IEEE International Conference on Mobile Data Management (MDM)",
       "International Workshop on Health Data Management and Mining (HDMM)",
       "International Conference on Database and Expert Systems Applications (DEXA)"

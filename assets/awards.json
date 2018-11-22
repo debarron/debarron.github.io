@@ -1,0 +1,14 @@
+[
+  {
+    "year":"2016",
+    "awards":["Test of something","Another test"]
+  },
+  {
+    "year":"2017",
+    "awards":["Bu", "Foo", "Bar"]
+  },
+  {
+    "year":"2018",
+    "2018":["T1", "T2", "T3"]
+  }
+]

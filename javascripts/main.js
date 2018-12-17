@@ -38,7 +38,15 @@ function appendConferences(data){
   var htmlFormat = "";
   var publications = data.publications.sort(comparePublications);
 
-  return publications.lenght
+  var currentYear = 0;
+  publications.forEach(function(publication){
+    if(publication.year != currentYear){
+      htmlFormat += "<ul><strong>" + publication.year + "</strong></ul>";
+      currentYear = publication.year;
+    }
+    htmlFormat += "<ul><strong>" + publication.authors + "</strong>,<i>" + publication.title +"</i></ul>";
+  });
+  $("#publication").append(htmlFormat);
 }
 
 $(document).ready(function() {

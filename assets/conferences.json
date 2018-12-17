@@ -1,22 +1,20 @@
-[
-  {
-    "publications":[
-      {
-        "type":"conference",
-        "authors":"Praveen Rao, Anas Katib, Daniel E. Barron Lopez",
-        "title":"A Knowledge Ecosystem for the Food, Energy, and Water System",
-        "year":2016,
-        "booktitle":"In the KDD 2016 Workshop on Data Science for Food, Energy and Water (DSFEW)",
-        "location":"San Francisco, CA"
-      },
-      {
-        "type":"conference",
-        "authors":"Daniel Lopez Barron, Dig Vijay Yarlagadda, Praveen Rao, Ossama Tawfik, Deepthi Rao",
-        "title":"Scalable Storage of Whole Slide Images and Fast Retrieval of Tiles Using Apache Spark",
-        "year":2018,
-        "booktitle":"In Proc. SPIE 10581, Medical Imaging 2018: Digital Pathology, 1058113",
-        "location":"Huston, TX"
-      }
-    ]
-  }
-]
+{
+  "publications":[
+    {
+      "type":"conference",
+      "authors":"Praveen Rao, Anas Katib, Daniel E. Barron Lopez",
+      "title":"A Knowledge Ecosystem for the Food, Energy, and Water System",
+      "year":2016,
+      "booktitle":"In the KDD 2016 Workshop on Data Science for Food, Energy and Water (DSFEW)",
+      "location":"San Francisco, CA"
+    },
+    {
+      "type":"conference",
+      "authors":"Daniel Lopez Barron, Dig Vijay Yarlagadda, Praveen Rao, Ossama Tawfik, Deepthi Rao",
+      "title":"Scalable Storage of Whole Slide Images and Fast Retrieval of Tiles Using Apache Spark",
+      "year":2018,
+      "booktitle":"In Proc. SPIE 10581, Medical Imaging 2018: Digital Pathology, 1058113",
+      "location":"Huston, TX"
+    }
+  ]
+}
